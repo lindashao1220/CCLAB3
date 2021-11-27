@@ -15,6 +15,7 @@ function setup() {
   mic.start();
 }
 
+
 function draw() {
   background("white");
   img.loadPixels();
