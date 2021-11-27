@@ -1,0 +1,47 @@
+body{
+  margin: 0;
+}
+
+.box1{
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+
+  padding: 20px;
+  margin: 10px;
+  margin-bottom: 50px;
+
+  width: 25%;
+}
+
+.leonsdiv{
+  height: 100px;
+  background-color: coral;
+}
+
+.text{
+  color: blue;
+  border-color: red;
+  border-width: 1px;
+  border-style: dashed;
+
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.absoluteBox{
+  position: absolute;
+  left: 600px;
+  top: 0px;
+}
+
+.relativeBox{
+  position: relative;
+  left: 50px;
+}
+
+.fixedBox{
+  position: fixed;
+  left: 500px;
+  top: 200px;
+}

@@ -1,0 +1,16 @@
+.songTitle{
+  text-shadow: 7px 7px;
+  font-size: 90px;
+  font-family: sans-serif;
+}
+body{
+  background-color: grey
+}
+.Lyrics{
+  font-size: 40px;
+  font-family:inherit;
+
+}
+a{
+  font-size: 40px;
+}

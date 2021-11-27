@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>CCLab</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="p5.js"></script>
+  </head>
+  <body>
+    <h1 id='headline'>the dancing robot</h1>
+    <h3>change the background color</h3>
+    <input id="bg-r" type="range" value="100" min="0" max="255">
+    <input id="bg-g" type="range" value="100" min="0" max="255">
+    <input id="bg-b" type="range" value="100" min="0" max="255">
+
+    <div>
+      <input id="checkbox-delete" type="checkbox">
+      <label for="checkbox-delete">bubbles appear?</label>
+    </div>
+
+    <div>
+      <input id="checkbox-rect" type="checkbox">
+      <label for="checkbox-rect">Add some rectangles?</label>
+    </div>
+
+    <div id="canvasContainer"></div>
+
+    <h3>change bubbles' position</h3>
+    <input type="range" id="robotxPositionSlider"></input>
+    <input type="range" id="robotyPositionSlider"></input>
+    <h3>zoom in all the bubbles</h3>
+    <input type="range" id="robotSizeSlider"></input>
+
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>

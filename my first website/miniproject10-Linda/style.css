@@ -1,0 +1,19 @@
+h1{
+  text-align: center;
+}
+
+body {
+  margin: 100;
+  padding: 100;
+  background-color: "black"
+}
+
+
+label{
+  font-family: fantasy;
+  font-size: 40px;
+}
+h3{
+  font-family: fantasy;
+  font-size: 30px;
+}

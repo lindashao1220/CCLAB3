@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <!-- include p5 library here: -->
+    <script type="text/javascript" src="p5.js"></script>
+  </head>
+  <body>
+
+    <!-- headline -->
+    <h1 id='headline'>lets do p5 again</h1>
+
+    <!-- empty div that we will designate to be
+    the canvas parent element. p5 creates the canvas.
+    so we ned to tell p5 (in setup) to put the canvas
+    into this element -->
+    <div id="canvasContainer"></div>
+
+    <!-- this caption should obvi be below the canvas
+    p5 put the canvas at the bottom of the page by default
+    but with the above technique we solve this layout problem -->
+    <p>Above you can see my p5 sketch, cool right?</p>
+
+
+    <input type="range" id="circlePositionSlider"></input>
+    <input type="range" id="circleSizeSlider"></input>
+
+    <br><input type="checkbox" id="cute">
+    <label for="cute"> I have a bike</label>
+
+
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>

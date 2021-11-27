@@ -1,0 +1,40 @@
+.myDiv1 {
+  border: 5px outset red;
+  background-color: lightblue;
+  border-style:dashed;
+  }
+
+.myDiv2 {
+  border: 100px outset blue;
+  background-color: yellow;
+  border-style: dotted;s
+  }
+
+.myDiv3 {
+  border: 5px;
+  background-color: grey;
+  }
+
+.myDiv4 {
+  border: 5px;
+  background-color: red;
+  }
+
+.myDiv5 {
+  border: 5px;
+  background-color: green;
+  }
+
+  .myDiv6{
+    border:8px;
+    background-color: pink
+  }
+
+span.b {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  border: 1px solid blue;
+  background-color: yellow;
+}
